@@ -1,0 +1,124 @@
+.footerConteiner{
+    max-width: 1440px;
+    max-height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #48339D;
+    padding-top: 70px;
+}
+
+.topOfFooter{
+    width: 1440px;
+    height: 290px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.logoFooter{
+    margin: 0;
+}
+
+.footerLogo{
+    display: flex;
+    flex-direction: column;
+    width: 253px;
+    height: 239px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+       .footerLogoh4{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            color: #FFFFFF;
+            margin: 20px 0px 40px 0px;
+        }
+
+            .footerLogoBtn{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 28px;
+                color: #FFFFFF;
+                width: 280px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 16px 32px;
+                gap: 10px;
+                background: linear-gradient(135deg, #99FA04 0%, #22B7A0 100%);
+                border: 1px solid #99FA04;
+                border-radius: 20px;
+            }
+
+             .footerLogoBtn:active{
+                    background: none;
+                    border: 1px solid  #99FA04;
+                }
+
+.navbar-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 205px;
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+.navbar-footer li {
+    margin-bottom: 10px;
+}
+        .nav-linkF{
+            font-family: 'Roboto';
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            color: #FFFFFF;
+            
+        }
+
+.footerContacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 360px;
+    height: 124px;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+        .contscts{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            color: #FFFFFF;
+            margin-bottom: 10px;
+        }
+
+.messengersContainer{
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.h6Footer{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.iconlocation {
+    width: 28px;
+    height: 28px;
+}

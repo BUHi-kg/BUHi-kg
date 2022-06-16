@@ -1,0 +1,74 @@
+
+.ourservices{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.ourservices img{
+    z-index: 1;
+    margin-top: -16px;
+    position: absolute;
+}
+
+
+.ourname{
+    display: block;
+    text-align: center;
+    margin-bottom: 5%;    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.ourmaintext{
+    margin-left: 10%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    color: #7757F9;
+}
+
+.ourimg{
+    display: flex;
+    margin-left: 20%;
+    margin-top: -8%;
+}
+
+.ourtext{
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: -14%;
+}
+
+.servicestext{
+    margin-bottom: 25%;
+}
+
+.servicestext1{
+    margin-bottom: 22%;
+}
+
+.textfirst {
+    margin-left: 150px;
+}
+
+.textsecond {
+    margin-left: 310px;
+}
+
+.textser {
+    margin-left: 140px;
+    margin-bottom: 140px;
+}

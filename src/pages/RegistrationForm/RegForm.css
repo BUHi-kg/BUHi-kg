@@ -1,0 +1,267 @@
+.reg-form {
+    top: 0;
+    position: absolute;
+}
+
+.reg_logo {
+    position: absolute;
+    width: 128px;
+    height: 40px;
+    left: 70px;
+    top: 50px;
+}
+
+.lefthalfCircle {
+    position: absolute;
+    left: 0;
+    top: 440px;
+}
+
+.HalfCircle {
+    position: absolute;
+    right: 0;
+    top: 1200px;
+}
+
+.reg {
+    max-width: 1440px;
+    min-width: 1440px;
+    max-height: 20000px;
+    background: #7757F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    max-width: 1080px;
+    min-width: 1080px;
+    max-height: 20000px;
+    background: #fff;
+    margin-top: 140px;
+    margin-bottom: 140px;
+    padding: 40px 400px 80px 200px;
+}
+
+.form_title h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 30px;
+
+}
+
+.form_title p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.form_items__input {
+    display: flex;
+    flex-direction: column;
+}
+
+.ant-form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_company {
+    width: 480px !important;
+    margin: 10px;
+    border: 1px solid #22B7A0;
+    border-radius: 15px;
+    margin-left: 0px;
+}
+
+.input_company::placeholder {
+    color: #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+        
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    opacity: 0;
+}
+.ant-form-item-label > label {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 40px;
+    color: #000000;
+    width: 200px;
+}
+
+.input_inn {
+    width: 480px !important;
+    margin: 10px;
+    border: 1px solid #22B7A0;
+    border-radius: 15px;
+    margin-left: 0px;
+}
+
+.input_inn::placeholder {
+    color: #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.ant-form-horizontal .ant-form-item-label {
+    flex-grow: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.ant-input-group-addon:first-child {
+    height: 61px;
+    border-right: 0;
+    width: 100px;
+    border-radius: 15px 0px 0px 15px;
+    border: 1px solid;
+border-image-source: linear-gradient(91.49deg, #22B7A0 0.87%, #CCFD80 106.03%);
+
+}
+
+.input_tel_group {
+    width: 490px !important;
+}
+
+.input_tel_code {
+    margin-left: 10px;
+    border: 1px solid #22B7A0;
+    border-radius: 15px 0px 0px 15px;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.input_tel_phone {
+    width: 328px !important;
+    border: 1px solid #22B7A0;
+    border-radius: 0px 15px 15px 0px ;
+    margin-top: 10px;
+}
+
+.input_tel_phone::placeholder {
+    color: #000000;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+
+}
+
+.input_email {
+    width: 480px !important;
+    margin-top: 10px;
+    border: 1px solid #22B7A0;
+    border-radius: 15px;
+}
+
+.input_email::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.input_password {
+    width: 396px;
+    border: 1px solid #22B7A0;
+    border-radius: 15px;
+}
+
+.ant-input-affix-wrapper {
+    width: 100%;
+}
+.input_col {
+    border: 1px solid #7757F9;
+    border-radius: 15px;
+    padding: 10px 0px 10px 0px;
+    width: 150px;
+}
+
+.input_radio_nalog {
+    display: grid;
+    grid-template-columns: 340px 340px;
+    grid-template-rows: 40px 40px;
+    
+}
+
+.input_radio_select span {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.ant-slider-handle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #72D891;
+    border: solid 2px #22B7A0;
+    border-radius: 50%;
+    box-shadow: 0;
+    cursor: pointer;
+    transition: border-color 0.3s, box-shadow 0.6s, transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+
+.ant-slider-track {
+    background-color: #22B7A0;
+}
+
+.onetosto {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.input_member div input{
+    margin: 14px 0px 20px 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.ant-input-number {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #22B7A0;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.ant-form-horizontal .ant-form-item-control {
+    margin-top: 10px;
+}

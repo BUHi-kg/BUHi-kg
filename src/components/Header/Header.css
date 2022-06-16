@@ -1,0 +1,109 @@
+* {
+    max-width: 1440px;
+}
+
+.header {
+    display: flex;
+}
+
+.header_logo {
+    display: flex;
+    background: #7757F9;
+    width: 50%;
+    padding-top: 40px;
+}
+
+.header_logo img {
+    width: 128px;
+    height: 40px;
+    margin-left: 70px;
+}
+
+.header_right {
+    width: 50%;
+    background: #CFD9FC;
+    display: flex;
+    padding-top: 40px;
+    align-items: baseline;
+}
+
+.header_right__navbar {
+    display: flex;   
+}
+
+.header_right__navbar ul {
+    display: flex;
+}
+
+.header_right__navbar ul li {
+    list-style-type: none;
+}
+
+.header_right__navbar ul li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7757F9;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.btnContainer{
+   display: flex;
+}
+
+.btnSignIn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7757F9;
+
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px; 
+            background: #7757f900;
+            border: 1px solid #7757F9;
+            border-radius: 10px;
+            margin-left: 40px;
+        }
+
+                    .btnSignIn:active{
+                        color: #7757F9;
+                        background: none;
+                        border: 1px solid #7757F9;
+
+                    }
+
+.btnSignUp{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px;
+            gap: 10px;
+            background: #7757F9;
+            border: 1px solid #7757F9;
+            border-radius: 10px;
+            margin-left: 30px;
+        }
+
+                        .btnSignUp:active{
+                            color: #7757F9;
+                            background: none;
+                            border: 1px solid #7757F9;
+
+                        }
