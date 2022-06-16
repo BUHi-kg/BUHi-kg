@@ -1,0 +1,26 @@
+.login {
+    width: 600px;
+    height: 450px;
+}
+
+.reg-modal {
+    background: #CFD9FC;
+    padding: 60px 100px 0px 100px;
+    border-radius: 20px;
+}
+
+.ant-tabs-nav-list {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ant-tabs-tab-btn {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+}

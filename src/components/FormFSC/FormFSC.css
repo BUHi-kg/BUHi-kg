@@ -1,0 +1,68 @@
+.formContainer{
+    width: 600px;
+    height: 450px;
+    background: #CFD9FC;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formRequest{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 400px;
+    
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #7757F9;
+}
+
+h5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #1E0196;
+}
+
+button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    background: linear-gradient(135deg, #99FA04 0%, #22B7A0 100%);
+    border: 1px solid  #99FA04;
+    border-radius: 20px;
+}
+
+input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 8px;
+    border: 1px solid #7757F9;
+    filter: drop-shadow(0px 1px 2px rgba(119, 87, 249, 0.2));
+    border-radius: 10px;
+}
